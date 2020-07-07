@@ -1,0 +1,8 @@
+name: 'Vanilla-Null'
+main: com.theprogrammingturkey.vanillanull.VanillaNullCore
+description: 'Adds /dev/null into vanilla via bukkit!'
+version: ${projectVersion}
+authors: [Turkey2349]
+api-version: '1.15'
+load: POSTWORLD
+softdepend: []
