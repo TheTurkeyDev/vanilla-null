@@ -25,6 +25,9 @@ public class NullInventoryListener implements Listener
 
 		if(e.getSlot() >= inv.getRealInvSize() && e.getClickedInventory() == e.getInventory())
 			e.setCancelled(true);
+
+		if(NullUtil.getVanillaNullTier(e.getCurrentItem()) != -1)
+			e.setCancelled(true);
 	}
 
 	// Cancel dragging in our inventory
