@@ -14,7 +14,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 public class VanillaNullItems
 {
 	public static final ItemStack t1VanillaNull = vanillaNullWrapper(Material.SHULKER_BOX);
-	public static final ItemStack t2VanillaNull = vanillaNullWrapper(Material.GRAY_SHULKER_BOX);
+	public static final ItemStack t2VanillaNull = vanillaNullWrapper(Material.LIGHT_GRAY_SHULKER_BOX);
 	public static final ItemStack t3VanillaNull = vanillaNullWrapper(Material.YELLOW_SHULKER_BOX);
 	public static final ItemStack t4VanillaNull = vanillaNullWrapper(Material.LIGHT_BLUE_SHULKER_BOX);
 	public static final ItemStack t5VanillaNull = vanillaNullWrapper(Material.GREEN_SHULKER_BOX);

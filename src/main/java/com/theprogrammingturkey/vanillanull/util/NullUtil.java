@@ -31,7 +31,7 @@ public class NullUtil
 		{
 			case SHULKER_BOX:
 				return 1;
-			case GRAY_SHULKER_BOX:
+			case LIGHT_GRAY_SHULKER_BOX:
 				return 2;
 			case YELLOW_SHULKER_BOX:
 				return 3;
