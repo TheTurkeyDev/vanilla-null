@@ -66,10 +66,12 @@ public class NullUtil
 				return 1;
 			case 2:
 				return 3;
-			case 4:
+			case 3:
 				return 6;
-			case 5:
+			case 4:
 				return 9;
+			case 5:
+				return 12;
 			default:
 				return 0;
 		}
